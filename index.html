@@ -2,6 +2,23 @@
 <html>
 
 <head>
+    <style>
+        a:link,
+        a:visited {
+            background-color: #ff0000;
+            color: white;
+            padding: 14px 300px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+
+        a:hover,
+        a:active {
+            background-color: blue;
+        }
+    </style>
     <title>DIVs and SPANs</title>
     <meta charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -10,33 +27,36 @@
 </head>
 
 <body>
+    <div class=wrapper>
 
+        <h1>DIVs and SPANs!</h1>
 
-    <h1>DIVs and SPANs!</h1>
+        <div class=similarities>
+            <h2>Similarities</h2>
+            <ul>
+                <li>they are both <span class=blue>containers</span> that hold content</li>
+                <li>they are invisible by default</li>
+                <li>they are styled with <code>&lt;style&gt;</code> and <code>&lt;class&gt;</code></li>
+            </ul>
+        </div>
 
-
-    <h2>Similarities</h2>
-    <ul>
-        <li>they are both containers that hold content</li>
-        <li>they are invisible by default</li>
-        <li>they are styled with <code>&lt;style&gt;</code> and <code>&lt;class&gt;</code></li>
-    </ul>
-
-
-
-    <h2>Differences</h2>
-    <ul>
-        <li><code>&lt;div&gt;</code>: block</li>
-        <ul>
-            <li>used for grouping elements</li>
-        </ul>
-        <li><code>&lt;span&gt;</code>: inline</li>
-        <ul>
-            <li>used to change the style of something on a webpage without affecting the context it is within</li>
-        </ul>
-    </ul>
-
-
+        <div class=differences>
+            <h2>Differences</h2>
+            <ul>
+                <li><code>&lt;div&gt;</code>: <span class=blue>block</span></li>
+                <ul>
+                    <li>used for grouping elements</li>
+                </ul>
+                <li><code>&lt;span&gt;</code>:<span class=blue>inline</span></li>
+                <ul>
+                    <li>used to change the style of something on a webpage without affecting the context it is within</li>
+                </ul>
+            </ul>
+        </div>
+        <div class=link>
+            <a href="https://edpuzzle.com/assignments/5a157645acc59c40e802a182/watch" target="_blank"><h3>click here to learn more about div and span</h3> </a>
+        </div>
+    </div>
 
 </body>
 
